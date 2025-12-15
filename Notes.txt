@@ -1,0 +1,37 @@
+token >> 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
+
+GitHub Repository >> https://github.com/prashant200592/AutomationExercise.git
+
+
+
+git init
+git status >> Red Color (folders)
+git config --global user.name "prashant200592"
+git config --global user.email "pacific.pansare@gmail.com"
+git add -A
+git status >> Green color (All files)
+git commit -m "Initial commit"
+git status >> White color (All files)
+git remote add origin https://github.com/prashant200592/AutomationExercise.git
+git push -u origin master
+_____________________________________________
+
+git pull origin master >> Green color +
+git status >> Red color filename
+git add <filename>
+git status >> Green color filename
+git commit -m "Updated..."
+git status
+git push -u origin
+
+___________________________________________________________________
+
+Jenkins:
+java -jar jenkins.war --httpPort=9090 --enable-future-java
+localhost:8080
+admin:admin
+New item >> Source Code Management >> Git >> Build Steps: Execute Windows batch command >> python -m pytest -v -s -m "sanity" .\testCases --browser edge OR run.bat
+
+
+
+
