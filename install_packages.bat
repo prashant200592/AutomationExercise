@@ -1,0 +1,12 @@
+pip install pytest
+pip install selenium
+pip install webdriver-manager
+pip install pytest-xdist
+pip install pytest-dependency
+pip install pytest-metadata
+pip install pytest-ordering
+pip install requests
+pip install pytest-html
+pip install allure-pytest
+pip install openpyxl
+pip install mysql-connector-python

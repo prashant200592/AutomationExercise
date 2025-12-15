@@ -1,0 +1,1 @@
+python -m pytest -v -s -m "sanity" .\testCases --browser edge
