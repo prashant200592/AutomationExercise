@@ -1,5 +1,3 @@
-token >> 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
-
 GitHub Repository >> https://github.com/prashant200592/AutomationExercise.git
 
 
